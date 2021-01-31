@@ -1,0 +1,134 @@
+.text-space{
+    width: 100%;
+    max-width: 250px;
+}
+.text-space-description {
+    width: 100%;
+    max-width: 300px;
+}
+.content-space {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+}
+.jconfirm-title {
+    font-size: 16px !important;
+}
+.control-label {
+    text-align: left !important;
+}
+.title-sup {
+    color: red;
+}
+.with-btn {
+    width: 110px;
+}
+.permission {
+    height: 350px;
+    overflow-x: hidden;
+}
+.permission-checkbox {
+    position: absolute;
+}
+.permission-name {
+    position: relative;
+    margin-left: 20px;
+    font-weight: unset;
+}
+.btn-search {
+    height: 34px;
+}
+
+.form-control-feedback {
+    right: 0px !important;
+}
+ul.menu_sidebar {
+    list-style: none;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.text-height {
+    line-height: 50px;
+}
+.statistical_order {
+    text-align: center;
+    border-radius: 4px;
+    padding: 40px 0px;
+}
+.order_new {
+    background: #337ab7;
+    border: 1px solid #2e6da4;
+}
+.order_process {
+    background: #31b0d5;
+    border: 1px solid #31b0d5;
+}
+.order_success {
+    background: #449d44;
+    border: 1px solid #449d44;
+}
+.order_cancel {
+    border: 1px solid #777;
+    background: #777;
+}
+.statistical_order p {
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #fff;
+}
+.statistical_order h5 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+.content .box-body {
+    min-height: 400px;
+}
+#listProducts thead {
+    background: #c0c0c0;
+}
+#listProducts img {
+    height: 70px;
+}
+#listProducts_paginate a,
+#listOrders_paginate a {
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+    margin-left: 5px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.form-search {
+    text-align: right;
+    margin: 0px 0px 20px;
+}
+.form-search input {
+    border-radius: 4px;
+    margin-right: 15px;
+    border: 1px solid #777;
+    padding: 5px 10px;
+    height: 30px;
+}
+.form-search button {
+    border: 1px solid #31b0d5;
+    background: #31b0d5;
+    color: #fff;
+    border-radius: 4px;
+    height: 29px;
+}
+input, button {
+    outline: none;
+}
+.form-search .title-saerch {
+    text-align: left;
+    text-transform: uppercase;
+    float: left;
+    font-weight: 600;
+    font-size: 16px;
+}
