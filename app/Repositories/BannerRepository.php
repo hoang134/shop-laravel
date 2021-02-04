@@ -12,7 +12,7 @@ class BannerRepository extends BaseRepository
         return Banner::class;
     }
 
-    public function getNewBanners($limit = 5, $position = 5)
+    public function getNewBanners($position,$limit = 5 )
     {
         return $this->_model
             ->where('status', Constant::STATUS_ACTIVE)
