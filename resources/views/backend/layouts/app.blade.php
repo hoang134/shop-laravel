@@ -6,21 +6,21 @@
     <title>@yield('title-admin', 'Admin')</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{!! asset('backend/dist/img/avatar5.png')!!}" />
-    <link rel="stylesheet" href="{!! asset('backend/bower_components/bootstrap/dist/css/bootstrap.min.css') !!}">
-    <link rel="stylesheet" href="{!! asset('backend/font-awesome/css/font-awesome.min.css') !!}">
-    <link rel="stylesheet" href="{!! asset('backend/bower_components/Ionicons/css/ionicons.min.css') !!}">
-    <link rel="stylesheet" href="{!! asset('backend/dist/css/AdminLTE.css') !!}">
-    <link rel="stylesheet" href="{!! asset('backend/dist/css/skins/_all-skins.min.css') !!}">
-    <link rel="stylesheet" href="{!! asset('backend/plugins/iCheck/flat/blue.css') !!}">
-    <link rel="stylesheet" href="{!! asset('backend/plugins/jquery-confirm/dist/jquery-confirm.min.css') !!}">
-    <link rel="stylesheet" href="{!! asset('backend/css/margin_padding_style.css') !!}">
-    <link rel="stylesheet" href="{!! asset('backend/css/main_style.css') !!}">
-    <link rel="stylesheet" href="{!! asset('backend/plugins/datatables-bs4/css/dataTables.bootstrap4.css') !!}">
+    <link rel="shortcut icon" type="image/x-icon" href="{!! secure_asset('backend/dist/img/avatar5.png')!!}" />
+    <link rel="stylesheet" href="{!! secure_asset('backend/bower_components/bootstrap/dist/css/bootstrap.min.css') !!}">
+    <link rel="stylesheet" href="{!! secure_asset('backend/font-awesome/css/font-awesome.min.css') !!}">
+    <link rel="stylesheet" href="{!! secure_asset('backend/bower_components/Ionicons/css/ionicons.min.css') !!}">
+    <link rel="stylesheet" href="{!! secure_asset('backend/dist/css/AdminLTE.css') !!}">
+    <link rel="stylesheet" href="{!! secure_asset('backend/dist/css/skins/_all-skins.min.css') !!}">
+    <link rel="stylesheet" href="{!! secure_asset('backend/plugins/iCheck/flat/blue.css') !!}">
+    <link rel="stylesheet" href="{!! secure_asset('backend/plugins/jquery-confirm/dist/jquery-confirm.min.css') !!}">
+    <link rel="stylesheet" href="{!! secure_asset('backend/css/margin_padding_style.css') !!}">
+    <link rel="stylesheet" href="{!! secure_asset('backend/css/main_style.css') !!}">
+    <link rel="stylesheet" href="{!! secure_asset('backend/plugins/datatables-bs4/css/dataTables.bootstrap4.css') !!}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-    <script src="{!! asset('backend/ckeditor/ckeditor.js') !!}"></script>
-    <script src="{!! asset('backend/ckfinder/ckfinder.js') !!}"></script>
-    <script src="{!! asset('backend/js/func_ckfinder.js') !!}"></script>
+    <script src="{!! secure_asset('backend/ckeditor/ckeditor.js') !!}"></script>
+    <script src="{!! secure_asset('backend/ckfinder/ckfinder.js') !!}"></script>
+    <script src="{!! secure_asset('backend/js/func_ckfinder.js') !!}"></script>
     <script>
         var baseURL = "{!! url('/')!!}"
     </script>
@@ -58,20 +58,20 @@
         <div class="control-sidebar-bg"></div>
     </div>
     <!-- ./wrapper -->
-    <script src="{!! asset('backend/bower_components/jquery/dist/jquery.min.js') !!}"></script>
-    <script src="{!! asset('backend/bower_components/bootstrap/dist/js/bootstrap.min.js') !!}"></script>
-    <script src="{!! asset('backend/bower_components/jquery-slimscroll/jquery.slimscroll.min.js') !!}"></script>
-    <script src="{!! asset('backend/bower_components/fastclick/lib/fastclick.js') !!}"></script>
-    <script src="{!! asset('backend/dist/js/adminlte.js') !!}"></script>
-    <script src="{!! asset('backend/plugins/iCheck/icheck.min.js') !!}"></script>
-    <script src="{!! asset('backend/js/checkbox.js') !!}"></script>
-    <script src="{!! asset('backend/dist/js/demo.js') !!}"></script>
-    <script src="{!! asset('backend/plugins/jquery-confirm/dist/jquery-confirm.min.js') !!}"></script>
-    <script src="{!! asset('backend/js/setting_js_datatable.js') !!}"></script>
-    <script src="{!! asset('backend/js/main.js') !!}"></script>
-    <script src="{!! asset('backend/plugins/datatables/jquery.dataTables.js') !!}"></script>
-    <script src="{!! asset('backend/js/datatables-config.js') !!}"></script>
-    <script src="{!! asset('backend/js/jquery-sortable.js') !!}"></script>
+    <script src="{!! secure_asset('backend/bower_components/jquery/dist/jquery.min.js') !!}"></script>
+    <script src="{!! secure_asset('backend/bower_components/bootstrap/dist/js/bootstrap.min.js') !!}"></script>
+    <script src="{!! secure_asset('backend/bower_components/jquery-slimscroll/jquery.slimscroll.min.js') !!}"></script>
+    <script src="{!! secure_asset('backend/bower_components/fastclick/lib/fastclick.js') !!}"></script>
+    <script src="{!! secure_asset('backend/dist/js/adminlte.js') !!}"></script>
+    <script src="{!! secure_asset('backend/plugins/iCheck/icheck.min.js') !!}"></script>
+    <script src="{!! secure_asset('backend/js/checkbox.js') !!}"></script>
+    <script src="{!! secure_asset('backend/dist/js/demo.js') !!}"></script>
+    <script src="{!! secure_asset('backend/plugins/jquery-confirm/dist/jquery-confirm.min.js') !!}"></script>
+    <script src="{!! secure_asset('backend/js/setting_js_datatable.js') !!}"></script>
+    <script src="{!! secure_asset('backend/js/main.js') !!}"></script>
+    <script src="{!! secure_asset('backend/plugins/datatables/jquery.dataTables.js') !!}"></script>
+    <script src="{!! secure_asset('backend/js/datatables-config.js') !!}"></script>
+    <script src="{!! secure_asset('backend/js/jquery-sortable.js') !!}"></script>
     @yield('script')
     <style>
         @media only screen and (max-width: 768px) {

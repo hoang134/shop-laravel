@@ -3,7 +3,7 @@
     <!-- Sidebar user panel -->
     <div class="user-panel">
         <div class="pull-left image">
-            <img src="{!! isset(Auth::user()->avatar) && !empty(Auth::user()->avatar) ? asset(replaceUrlImage(Auth::user()->avatar)) : asset('backend/dist/img/avatar5.png') !!}" class="img-circle" alt="User Image">
+            <img src="{!! isset(Auth::user()->avatar) && !empty(Auth::user()->avatar) ? secure_asset(replaceUrlImage(Auth::user()->avatar)) : secure_asset('backend/dist/img/avatar5.png') !!}" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
             <p><a href="{{ route('profile') }}">{{  Auth::user()->name ?  Auth::user()->name :'' }}</a></p>

@@ -42,7 +42,7 @@
                                 <td class="text-height">{{ $i }}</td>
                                 <td><p class="text-space"><span class="content-space" data-toggle="tooltip" title="{{$page->title}}">{{$page->title}}</span></p></td>
                                 <td>{{ $page->url_page }}</td>
-                                <td><img src="{!! !empty($page->url_image) ? $page->url_image : asset('frontend/img/image_default.jpg') !!}" alt="" width="150" height="100"></td>
+                                <td><img src="{!! !empty($page->url_image) ? $page->url_image : secure_asset('frontend/img/image_default.jpg') !!}" alt="" width="150" height="100"></td>
                                 <td>{{ $page->description }}</td>
                                 <td>{{ getStatus($page->status) }}</td>
                                 <td>

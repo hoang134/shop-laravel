@@ -1,7 +1,7 @@
 @extends('backend.layouts.app')
 @section('title-admin', __('labels.order.label'))
 @section('style')
-    <link rel="stylesheet" href="{!! asset('backend/bower_components/jquery-ui/themes/base/jquery-ui.css') !!}">
+    <link rel="stylesheet" href="{!! secure_asset('backend/bower_components/jquery-ui/themes/base/jquery-ui.css') !!}">
 @endsection
 @section('main-content')
     <!-- Content Header (Page header) -->
@@ -170,12 +170,12 @@
     <!-- /.content -->
 @endsection
 @section('script')
-    <script src="{!! asset('backend/bower_components/jquery-ui/jquery-ui.js') !!}"></script>
+    <script src="{!! secure_asset('backend/bower_components/jquery-ui/jquery-ui.js') !!}"></script>
     <script>
         var urlSearch = {
             customers: '{{ route('customers.search') }}',
             products: '{{ route('products.search') }}',
         };
     </script>
-    <script src="{!! asset('backend/js/order/add.js') !!}"></script>
+    <script src="{!! secure_asset('backend/js/order/add.js') !!}"></script>
 @endsection

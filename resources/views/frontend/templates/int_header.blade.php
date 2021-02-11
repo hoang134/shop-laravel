@@ -23,7 +23,7 @@
                         </div>
 
                         <div class="hotline d-flex align-items-center">
-                            <img class="icon-phone" src="{{ asset('frontend/img/core-img/icon-phone.png') }}">
+                            <img class="icon-phone" src="{{ secure_asset('frontend/img/core-img/icon-phone.png') }}">
                             <div class="sdt">
                                 <a href="tel:{{ $setting->hotline }}">{{ $setting->hotline }}</a>
                                 <a href="tel:{{ $setting->phone }}">{{ $setting->phone }}</a>

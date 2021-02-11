@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>@yield('title-admin','Admin')</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="shortcut icon" type="image/x-icon" href="{!! asset('backend/dist/img/avatar5.png')!!}" />
-    <link rel="stylesheet" href="{!! asset('backend/css/all.min.css?v='.randString(18)) !!}">
+    <link rel="shortcut icon" type="image/x-icon" href="{!! secure_asset('backend/dist/img/avatar5.png')!!}" />
+    <link rel="stylesheet" href="{!! secure_asset('backend/css/all.min.css?v='.randString(18)) !!}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 <body class="hold-transition login-page">
@@ -51,7 +51,7 @@
     <!-- /.login-box-body -->
 </div>
 <!-- /.login-box -->
-<script src="{!! asset('backend/bower_components/jquery/dist/jquery.min.js') !!}"></script>
+<script src="{!! secure_asset('backend/bower_components/jquery/dist/jquery.min.js') !!}"></script>
 <script>
     setTimeout(function(){
         jQuery('.alert').slideUp(2000);

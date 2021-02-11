@@ -72,12 +72,12 @@
     </div>
     <div class="call-zalo">
         <a data-animate="fadeInDown" rel="noopener noreferrer" href="http://zalo.me/{{ $setting->hotline ?? '' }}" target="_blank" data-animated="true">
-            <img class="zalo" src="{{ asset('frontend/img/core-img/icon-zalo.png') }}">
+            <img class="zalo" src="{{ secure_asset('frontend/img/core-img/icon-zalo.png') }}">
         </a>
     </div>
     <div class="call-phone">
         <a data-animate="fadeInDown" rel="noopener noreferrer" href="tel:{{ $setting->hotline ?? '' }}" data-animated="true">
-            <img class="zalo" src="{{ asset('frontend/img/core-img/icon-phone.png') }}">
+            <img class="zalo" src="{{ secure_asset('frontend/img/core-img/icon-phone.png') }}">
         </a>
     </div>
 </footer>

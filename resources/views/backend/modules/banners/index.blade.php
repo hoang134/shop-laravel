@@ -42,7 +42,7 @@
                                 <td class="text-height">{{ $i }}</td>
                                 <td><p class="text-space"><span class="content-space" data-toggle="tooltip" title="{{$banner->title}}">{{$banner->title}}</span></p></td>
                                 <td>{{ $banner->url_link }}</td>
-                                <td><img src="{!! !empty($banner->url_image) ? $banner->url_image : asset('frontend/img/image_default.jpg') !!}" alt="" width="150" height="100"></td>
+                                <td><img src="{!! !empty($banner->url_image) ? $banner->url_image : secure_asset('frontend/img/image_default.jpg') !!}" alt="" width="150" height="100"></td>
                                 <td>{{ getPosition($banner->position) }}</td>
                                 <td>{{ getStatus($banner->status) }}</td>
                                 <td>
